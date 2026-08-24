@@ -1,0 +1,48 @@
+[
+ {
+  "RuleID": "terraform-admin-password",
+  "Description": "Detect hardcoded Terraform admin passwords",
+  "StartLine": 86,
+  "EndLine": 86,
+  "StartColumn": 6,
+  "EndColumn": 43,
+  "Match": "admin_password      = \"26@Anaya\u0026adhya\"",
+  "Secret": "admin_password      = \"26@Anaya\u0026adhya\"",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.9869764,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-admin-password:86"
+ },
+ {
+  "RuleID": "terraform-admin-password",
+  "Description": "Detect hardcoded Terraform admin passwords",
+  "StartLine": 96,
+  "EndLine": 96,
+  "StartColumn": 6,
+  "EndColumn": 43,
+  "Match": "admin_password      = \"26@Anaya\u0026adhya\"",
+  "Secret": "admin_password      = \"26@Anaya\u0026adhya\"",
+  "File": "terraform.tfvars",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 3.9869764,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [
+   "terraform",
+   "password"
+  ],
+  "Fingerprint": "terraform.tfvars:terraform-admin-password:96"
+ }
+]

@@ -1,0 +1,7 @@
+title = "Custom Gitleaks Rules"
+
+[[rules]]
+id = "terraform-admin-password"
+description = "Detect hardcoded Terraform admin passwords"
+regex = '''(?i)admin_password\s*=\s*"[^"]+"'''
+tags = ["terraform", "password"]

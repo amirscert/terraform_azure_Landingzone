@@ -1,0 +1,9 @@
+variable "rgs2" {}
+variable "vnets2" {}
+variable "subnets2" {}
+variable "vms2" {}
+variable "nics" {}
+variable "bastions" {}
+variable "nat_gateways" {}
+variable "load_balancers" {}
+variable "stg2" {}
