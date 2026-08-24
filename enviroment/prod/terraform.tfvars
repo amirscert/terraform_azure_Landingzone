@@ -4,6 +4,10 @@ rgs2 = {
     name     = "rajivrg"
     location = "centralindia"
   }
+   rg1 = {
+    name     = "rajivrgtest"
+    location = "centralindia"
+  }
 }
 
 stg2 = {
